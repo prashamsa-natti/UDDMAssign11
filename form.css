@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+
+/* form styling */
+
+
+#wrapper {
+	width: 40%;
+	margin-left:4%;
+}
+
+legend{
+	font-size:large;
+}
+
+div#formcol1 {
+	float:left;	
+	width: 100%;
+}
+
+label{
+	margin-right: .3em;
+	display: inline-block;
+	font-weight: bold;
+	
+}
+
+ #formcol1 li {
+	list-style: none;
+}
+
+#formcol1 label{
+	text-align: right;
+	width: 6.3em;
+	
+}
+
+#formcol1 input.reqfield {
+	background:#FF9;
+	
+}
+
+#formcol1 input{
+	padding: 8px;
+	border-radius:15px;
+	box-shadow:4px 4px 10px rgba(0, 0, 0, 0.592);
+	margin:5px 0;
+	border: 0;
+}
+
+input:active + label, input:focus + label, select:focus, select:active,   input:active + label,
+input:active, input:focus, label[for]:focus, label[for]:active {
+/* color: #FFF !important; */
+background-color: #bb3d2f6f !important;}
+
+/* end of form css */
+/*  */
+	
+input[type="submit"] {
+
+	/* remove default behavior */
+	appearance:none;
+	-webkit-appearance:none;
+  
+	/* usual styles */
+	padding:10px;
+	border:none;
+	background-color:#3F51B5;
+	color:#fff;
+	font-weight:400;
+	border-radius:5px;
+	width:40%;
+  
+  }
+
+  fieldset{
+
+	display: block;
+	margin-left: 2px;
+	margin-right: 2px;
+	padding-top: 0.35em;
+	padding-bottom: 0.625em;
+	padding-left: 0.75em;
+	padding-right: 0.75em;
+	border: 2px groove (internal value);
+	border-radius:10px;
+	
+  
+  }
+
+ 
